@@ -1,5 +1,6 @@
 import React from "react";
 import "./ProductsSideBar.css";
+
 import LinkWithIcon from "../Navbar/LinkWithIcon";
 import useData from "../../Hooks/useData";
 function ProductsSideBar() {
