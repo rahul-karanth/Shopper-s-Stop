@@ -24,7 +24,9 @@ const Navbar = () => {
   return (
     <nav className="align_center navbar">
       <div className="align_center">
-        <h1 className="navbar_heading">Shopper's Stop</h1>
+        <div className="navbar_heading">
+          <LinkWithIcon title="Shopper's Stop" link="/"></LinkWithIcon>
+        </div>
         <form className="align_center navbar_form" onSubmit={handleSubmit}>
           <input
             type="text"
